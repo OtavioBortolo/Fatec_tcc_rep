@@ -1,0 +1,76 @@
+<body>
+    <div class="portfolio-container">
+        <h1>Portfolio</h1>
+        <div class="portfolio-grid">
+            <div class="image-container">
+                <img src="/Fatec_tcc_rep/src/img/portifólio1.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img src="/Fatec_tcc_rep/src/img/portifolio2.jpeg" alt="">
+            </div>
+            <div class="image-container">
+                <img src="/Fatec_tcc_rep/src/img/portifolio3.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img src="/Fatec_tcc_rep/src/img/portifólio1.jpg" alt="">
+            </div>
+            <div class="image-container">
+                <img src="/Fatec_tcc_rep/src/img/portifolio2.jpeg" alt="">
+            </div>
+            <div class="image-container">
+                <img src="/Fatec_tcc_rep/src/img/portifolio3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+<style>
+
+    * { 
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .portfolio-container {
+        text-align: center;
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+    }
+    
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+    
+    .image-container {
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    
+    .image-container img {
+        width: 80%;
+        height: 80%;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    
+    .image-container img:hover {
+        transform: scale(1.05);
+    }
+</style>
+
+</body>
+</html>
