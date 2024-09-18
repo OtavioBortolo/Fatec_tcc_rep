@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #111;
+}
+
+.imagem img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto1 {
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.texto2 {
+    display: flex;
+    gap: 40px;
+}
+
+.texto2 div {
+    text-align: left;
+}
+
+.texto2 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.texto2 p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+/* Fim do css sobre */
+
+.portfolio-container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.imagem-portifolio {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.imagem-portifolio img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.imagem-portifolio img:hover {
+    transform: scale(1.05);
+}
+
+/* fim do css portifolio */
