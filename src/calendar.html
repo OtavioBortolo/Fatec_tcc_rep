@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-black">
+
+    <section class="container mx-auto px-4 py-10">
+        <div class="max-w-sm mx-auto bg-gray-950
+         rounded-xl shadow-md overflow-hidden">
+            <div class="relative flex items-center justify-between p-6 space-x-4">
+                <h2 class="text-xl font-semibold text-white">Faça login em sua conta</h2>
+            </div>
+            
+            <form class="space-y-4 p-6">
+                <div class="flex items-stretch space-x-4">
+                    <div class="w-full pr-2">
+                        <label for="UsuarioInput" class="block mb-2 text-sm font-medium text-white">Usuario</label>
+                        <input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                            type="text" 
+                            id="UserInput"
+                            placeholder=" Usuario" 
+                        required>
+                    </div>
+                </div>
+                
+                <div class="mt-4">
+                    <label for="SenhaInput" class="mb-2 text-sm font-medium text-white">Senha</label>
+                    <input class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" 
+                        type="text" 
+                        id="eventInput"
+                        placeholder="*******"
+                    required>
+                    <p class="text-white">Esqueceu a senha? </p>
+                </div>
+                
+                <div class="mt-6">
+                    <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+                        Sign-in
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

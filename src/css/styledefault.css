@@ -14,7 +14,7 @@ body {
     height: 100vh;
 }
 
-.container {
+.container-sobre{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,43 +25,43 @@ body {
     background-color: #111;
 }
 
-.imagem img {
+.imagem-sobre img {
     width: 400px;
     height: auto;
     border-radius: 10px;
 }
 
-.texto1 {
+.texto1-sobre {
     max-width: 50%;
     padding: 0 20px;
 }
 
-h1 {
+.texto1-sobre h1 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
-p {
+.texto1-sobre p {
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 30px;
 }
 
-.texto2 {
+.texto2-sobre {
     display: flex;
     gap: 40px;
 }
 
-.texto2 div {
+.texto2-sobre div {
     text-align: left;
 }
 
-.texto2 h2 {
+.texto2-sobre h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-.texto2 p {
+.texto2-sobre p {
     font-size: 1rem;
     text-transform: uppercase;
     color: #ccc;
